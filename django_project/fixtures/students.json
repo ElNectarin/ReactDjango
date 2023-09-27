@@ -1,0 +1,54 @@
+[
+    {
+        "model": "students.student",
+        "pk": 1,
+        "fields":{
+            "name": "Aleksandr Volkov",
+            "email": "example.example@example.com",
+            "document": "---",
+            "phone": "(799)999-9999",
+            "registrationDate": "2023-08-09",
+            "photo": "/media/photo/1593060432_9-p-aleksandr-volkov-instagramm-18.jpg"
+
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 2,
+        "fields":{
+            "name": "Islam Makhachev",
+            "email": "example.example@example.com",
+            "document": "---",
+            "phone": "(799)999-9999",
+            "registrationDate": "2023-08-09",
+            "photo": "/media/photo/eksklyuzivnoe-intervyu-s-islamom-mahachevym_16458571291226026376.jpg"
+
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 3,
+        "fields":{
+            "name": "Horhe Mosvidal",
+            "email": "example.example@example.com",
+            "document": "---",
+            "phone": "(799)999-9999",
+            "registrationDate": "2023-08-09",
+            "photo": "/media/photo/1667677553_9-sportishka-com-p-boitsi-yufs-muzhchini-pinterest-9.jpg"
+
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 4,
+        "fields":{
+            "name": "Khabib Nurmagomedov",
+            "email": "example.example@example.com",
+            "document": "---",
+            "phone": "(799)999-9999",
+            "registrationDate": "2023-08-09",
+            "photo": "/media/photo/c4ad74a50b8922cb079c5544ff8d4986.jpg"
+
+        }
+    }
+]

@@ -1,0 +1,13 @@
+
+FROM node as build
+
+WORKDIR /app/frontend
+COPY ./hello-world/package.json ./
+COPY ./hello-world/package-lock.json ./
+RUN npm ci --silent
+COPY ./hello-world/ ./
+RUN npm run build
+
+FROM nginx
+COPY --from=build /app/frontend/build /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
